@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap');
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --ff-fam: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 10px 20px 0;
+    background-image: url("Huawei-Port-Image.jpeg");
+    background-size: cover;
+    background-color: black;
+    opacity: 75%;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    padding: 4px;
+    list-style: none;
+}
+
+li a{
+    margin: 15px ;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header h1{
+    margin: 0;
+    font-size: 4.5rem;
+    height: 5rem;
+    font-family: var(--ff-fam);
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.header p{
+    margin: 0;
+    padding-left: 5px;
+    font-family: var(--ff-fam);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.info {
+    width: 300px;
+    font-size: 2rem;
+    font-family: var(--ff-fam);
+    line-height: 3rem;
+}
+
+.info h2{
+    font-weight: 500;
+}
+
+.sub-info{
+    width: 350px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    display: flex;
+    align-items: flex-end;
+    font-family: var(--ff-fam);
+}
+
+
+.design{
+    margin: 0;
+    padding: 20px 10px 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.design-sub{
+    transform: rotate(90deg);
+    width: max-content;
+}
+
+.design h3{
+    width: fit-content;
+    letter-spacing: 6px;
+    margin: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.footer p{
+    width: 150px;
+}
+
+.link{
+    color: white;
+    font-size: 0.5rem;
+    text-decoration: none;
+}
